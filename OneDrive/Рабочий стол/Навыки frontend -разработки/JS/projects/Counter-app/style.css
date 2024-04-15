@@ -1,0 +1,48 @@
+body {
+    margin-top: 126px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+}
+
+.counter-modul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+
+.counter_text {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.button_counter,
+.button_reset {
+    width: 500px;
+    padding: 28px 163px;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.button_counter:hover,
+.button_reset:hover {
+    opacity: 0.7;
+}
+
+.button_counter {
+    background-color: #4191FF;
+}
+
+.button_reset {
+    background-color: #D45366;
+}
